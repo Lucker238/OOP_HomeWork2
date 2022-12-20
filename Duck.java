@@ -1,4 +1,4 @@
-public class Duck extends Animal implements Speakable, Runable, Flyable{
+public class Duck extends Animal implements Speakable, Runable, Flyable, Swimable{
 
     public Duck(String name, int legs, String owner) {
         super(name, legs, owner);
@@ -22,5 +22,10 @@ public class Duck extends Animal implements Speakable, Runable, Flyable{
     @Override
     public String toString() {
         return "Duck" + super.toString();
+    }
+
+    @Override
+    public int swimSpeed() {
+        return 15;
     }
 }

@@ -19,6 +19,10 @@ public class Main {
         for (Flyable fly : home1.getFlyable()) {
             System.out.println(fly.flySpeed());
         }
+        for(Swimable swim : home1.getSwimable()) {
+            System.out.println(swim.swimSpeed());
+        }
+
         SaveManagerAnimals sma = new SaveManagerAnimals();
         sma.save(home1.getAnimals());
 

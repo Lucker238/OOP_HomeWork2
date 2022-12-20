@@ -69,6 +69,16 @@ public class Home {
         return result; 
     }
 
+    public List<Swimable> getSwimable() {
+        List<Swimable> result = new ArrayList<>();
+        for (Animal animal : homeAnimals) {
+            if(animal instanceof Swimable) {
+                result.add((Swimable) animal);
+            }
+        }
+        return result;
+    }
+
 
 
 }
