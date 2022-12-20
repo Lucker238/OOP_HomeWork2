@@ -1,0 +1,6 @@
+Cat(Name: Chernish, Legs: 4, Owner: Oleg)
+Dog(Name: Cooper, Legs: 4, Owner: Yana)
+Dog(Name: Bonifazi, Legs: 4, Owner: Maksim)
+Duck(Name: Gogoosha, Legs: 2, Owner: Grigoriy)
+Eagle(Name: Orlusha, Legs: 2, Owner: Peacemaker)
+Turtule(Name: Cherepavel, Legs: 4, Owner: Maksim)
